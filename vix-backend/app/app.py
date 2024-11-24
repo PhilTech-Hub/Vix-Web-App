@@ -6,7 +6,7 @@ from routes.auth import auth_blueprint
 app = Flask(__name__)
 CORS(app)  # Allow React to communicate with Flask
 
-# Register blueprints
+# Register blueprintscd 
 app.register_blueprint(main_blueprint)
 app.register_blueprint(auth_blueprint)
 
